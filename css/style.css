@@ -10,6 +10,7 @@
   width: 20vw;
   height: 33vh;
   position: relative;
+  border: 5px solid white;
 }
 
 .layover{
@@ -18,8 +19,17 @@
   height: 100%;
 }
 
+
 .roma{
   background-image: url("https://img2.meteo.it/bin/90.$plit/C_109_meteoCitta_4_upiFoto.jpg");
+}
+
+.milano{
+  background-image: url("http://www.youparti.com/nightlife_2016/nightlife/wp-content/uploads/2018/10/Milano.jpg");
+}
+
+.napoli{
+  background-image: url("http://www.poli-listaperta.it/wp-content/uploads/2019/09/Panorama-di-Napoli-Gettyimages.jpg");
 }
 
 div.container h2.città{
