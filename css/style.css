@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-
 .container{
   background-size:cover;
   width: 20vw;
   height: 33vh;
   position: relative;
   border: 5px solid white;
+  box-shadow: 2px 2px lightgrey;
 }
 
 .layover{
@@ -39,7 +39,9 @@ div.container h2.città{
   transform: translate(-50%,-50%);
   color: white;
   text-transform: uppercase;
-  text-shadow: 1px 1px 1px black;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 2px 2px grey;
   opacity: 0;
 }
 .container:hover .città{
